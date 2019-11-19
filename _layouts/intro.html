@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/Fonts.css" />
+ <meta charset="UTF-8">
+ <title>BIENVENUE WELCOME</title>
+<style>
+
+body {
+	background-color: white;
+	font-family: 'uni', 'EB Garamond', helvetica;
+}
+
+img {
+	max-width: 88%;
+}
+.center {
+
+  margin: auto;
+  /* width: 50%; */
+  /* border: 3px solid green; */
+  /* padding: 10px; */
+  text-align: center;
+  padding-top: 8vh;
+}
+a {
+	margin: 20px;
+	font-size: 20px;
+	text-decoration: none
+	/* color: red; */
+
+}
+
+.lang {
+	margin-top: 10px;
+	/* font-family: garamond, 'EB Garamond', helvetica; */
+	/* font-weight: 800; */
+	color: #454545;
+
+}
+
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+</style>
+
+
+  <body>
+
+	  <div class="center">
+		  <img src="#" id="img" alt="">
+		  <br>
+		  <div class="lang">
+	  <a href="{{ site.baseurl }}/fr/accueil/">Français</a>
+	  /
+	  <a href="{{ site.baseurl }}/en/home/">English</a>
+	  </div>
+  </div>
+  </body>
+
+  <script>
+  function random() {
+	  var num = Math.floor(Math.random() * 4 + 1);
+	  var randomimage = "assets/img/" +num +".jpg";
+	  console.log(randomimage);
+	  document.getElementById('img').src=randomimage;
+  }
+
+  random();
+  window.onload = function() {
+      document.getElementById("img").onclick = function fun() {
+          // alert("hello");
+          random();
+          //validation code to see State field is mandatory.
+      }
+  }
+
+
+
+
+  </script>
+</html>

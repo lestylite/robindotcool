@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Robin in the Trees"
+---
+<div class="introduction">
+  <h1>Hello,</h1>
+
+  <!-- <p>Hello, -->
+<br>
+  <p>my name is Robin. Welcome to my website.
+<br>
+<p>Here you can find all the informations about me, please discover and explore freely. If you don’t know anything about me, I would kindly direct you to my <a href="{{ site.baseurl }}/statement/">artistic statement</a> and <a href="{{ site.baseurl }}/biography/">biography</a>. Otherwise, you may be here to get my latest <a href="{{ site.baseurl }}/news/">news</a>, dive into my <a href="{{ site.baseurl }}/writings/">writings</a>, learn about my <a href="{{ site.baseurl }}/performativelectures/">performative lectures</a>, leave a note in the <a href="{{ site.baseurl }}/guestbook/">guest book</a>, or become a <a href="{{ site.baseurl }}/patronage/">patron</a>. Finally, don’t hesitate to <a href="{{ site.baseurl }}/contact/">get in touch</a> !
+<br>
+<p>I wish you the most pleasant visit. Don’t hesitate to contact me for any additional information.
+<br>
+  <p>Tenderly,</p>
+<br>
+  <p>Robin</p>
+
+
+<!-- <p>
+  Robin a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual
+  editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and
+  focused on legibility, durability, ease and flexibility. Our underlying technology is easy to
+  learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant
+  to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our
+  documentation</a> for installation instructions and more. To learn more about the ideas behind Ed
+  and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To
+  see Ed in action, we've provided some sample minimal editions for you below.
+</p> -->
+</div>
+
+<hr>
+
+<div class="toc">
+  <h2>Texts currently available on this website :</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,14 @@
+---
+layout: default-fr
+---
+
+<article class="narrative">
+  <h1 class="text-title">{{ page.title }}</h1>
+  <p class="byline">Date de la performance: {{ page.performance-date }} <br> Texte publié: {{ page.publication-date }} <br>
+  Dernière modification: {{ page.update-date }}
+  <br>
+  <!-- Télécharger le texte au format <a href="{{ site.baseurl }}/pdf/{{ page.pdf }}">PDF</a> -->
+</p>
+  <!-- <p class="byline">by {{ page.author }}</p> -->
+  {{ content }}
+</article>

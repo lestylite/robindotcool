@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Uni';
+    src: url('../fonts/Uni-Bold.woff2') format('woff2'),
+        url('../fonts/Uni-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni';
+    src: url('../fonts/Uni-Oblique.woff2') format('woff2'),
+        url('../fonts/Uni-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni';
+    src: url('../fonts/Uni.woff2') format('woff2'),
+        url('../fonts/Uni.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni';
+    src: url('../fonts/Uni-BoldOblique.woff2') format('woff2'),
+        url('../fonts/Uni-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+// bir
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/bir___-webfont.woff2') format('woff2'),
+         url('../fonts/bir___-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/birb___-webfont.woff2') format('woff2'),
+         url('../fonts/birb___-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/birbi__-webfont.woff2') format('woff2'),
+         url('../fonts/birbi__-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/biri___-webfont.woff2') format('woff2'),
+         url('../fonts/biri___-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/birsb__-webfont.woff2') format('woff2'),
+         url('../fonts/birsb__-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bir';
+    src: url('../fonts/birsbi_-webfont.woff2') format('woff2'),
+         url('../fonts/birsbi_-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+
+}
